@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#171717">
+    <meta name="description" content="تطبيق تعليمي عن العصر الجاهلي">
+
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icons/icon-192.png">
+    <link rel="apple-touch-icon" href="./icons/icon-192.png">
+
+    <title>رحلة إلى العصر الجاهلي</title>
+</head>
+
+<body>
+
+<header>
+    <h1>رحلة إلى العصر الجاهلي</h1>
+    <p>اكتشف تاريخ العرب وأدبهم قبل الإسلام</p>
+</header>
+
+<nav>
+    <button onclick="home()">الرئيسية</button>
+    <button onclick="showLessons()">الدروس</button>
+    <button onclick="showPoets()">الشعراء</button>
+    <button onclick="startQuiz()">الاختبار</button>
+</nav>
+
+<main id="content"></main>
+
+<footer>
+    <p>رحلة إلى العصر الجاهلي | تطبيق تعليمي</p>
+    <button id="installBtn" hidden>تثبيت التطبيق</button>
+</footer>
+
+<script src="./app.js"></script>
+
+</body>
+</html>
